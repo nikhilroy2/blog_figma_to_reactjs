@@ -1,6 +1,8 @@
 import React from 'react';
 import './scss/SinglePost.css'
 function SinglePost(props) {
+    window.document.title = 'SinglePost'
+
     return (
         <div id='SinglePost'>
             <section>

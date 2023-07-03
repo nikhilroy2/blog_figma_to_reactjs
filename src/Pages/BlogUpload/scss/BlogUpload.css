@@ -13,7 +13,7 @@
     padding-inline: 12px;
   }
 }
-#BlogUpload .container_wrapper .section_header {
+#BlogUpload .container_wrapper .section_header label {
   width: 100%;
   height: 159px;
   border-radius: 15px;
@@ -31,11 +31,13 @@
 }
 #BlogUpload .container_wrapper .section_body .form_group label {
   display: block;
+  margin-bottom: 8px;
 }
 #BlogUpload .container_wrapper .section_body .form_group input,
 #BlogUpload .container_wrapper .section_body .form_group textarea {
   width: 100%;
   display: block;
+  padding: 8px;
 }
 #BlogUpload .container_wrapper .section_body .form_group textarea {
   height: 184px;
@@ -48,7 +50,7 @@
   background: #1A5EE1;
   color: #fff;
   font-size: 15px;
-  padding: 8px;
+  padding: 11px 15px;
   border: none;
   outline: none;
   cursor: pointer;

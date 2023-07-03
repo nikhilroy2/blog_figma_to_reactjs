@@ -5,6 +5,7 @@ import SinglePost from './Pages/SinglePost/SinglePost';
 import BlogUpload from './Pages/BlogUpload/BlogUpload';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>

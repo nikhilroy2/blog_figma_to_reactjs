@@ -1,6 +1,7 @@
 import React from 'react';
 import './scss/Homepage.css'
 function Homepage(props) {
+    window.document.title = 'Homepage'
     const card_object = [
         {
             id: 1,
