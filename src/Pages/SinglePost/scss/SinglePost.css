@@ -1,0 +1,101 @@
+@font-face {
+  src: url(../SourceSerifPro-Regular.otf);
+  font-family: SourceSerifPro;
+}
+#SinglePost .container_wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 132px;
+}
+#SinglePost .container_wrapper * {
+  font-family: "Work Sans", sans-serif;
+}
+#SinglePost .container_wrapper .section_header .section_type {
+  display: inline-flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+  background: #4B6BFB;
+  color: #fff;
+  margin-bottom: 16px;
+}
+#SinglePost .container_wrapper .section_header .section_title {
+  color: #181A2A;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+#SinglePost .container_wrapper .section_header .user_tags {
+  display: flex;
+  align-items: center;
+}
+#SinglePost .container_wrapper .section_header .user_tags img {
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  margin-right: 8px;
+}
+#SinglePost .container_wrapper .section_header .user_tags .user_name {
+  margin-right: 24px;
+}
+#SinglePost .container_wrapper .section_header .user_tags .user_name,
+#SinglePost .container_wrapper .section_header .user_tags .date {
+  color: #696A75;
+  /* Body/b5/Medium */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+#SinglePost .container_wrapper .section_header .img_wrapper {
+  margin-block: 32px;
+}
+#SinglePost .container_wrapper .section_header .img_wrapper img {
+  width: 100%;
+}
+#SinglePost .container_wrapper .section_body .content_wrapper p {
+  color: #3B3C4A;
+  /* Article/lg/Regular */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: SourceSerifPro;
+}
+#SinglePost .container_wrapper .section_body .content_wrapper strong.content_strong {
+  color: #181A2A;
+  /* Heading/h3/Semibold */
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  display: block;
+}
+#SinglePost .container_wrapper .section_footer .user_quote {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #F6F6F7;
+  border-left: 4px solid #E8E8EA;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+#SinglePost .container_wrapper .section_footer .user_quote q {
+  color: #181A2A;
+  /* Article/quote/Regular */
+  font-size: 24px;
+  font-family: SourceSerifPro;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px;
+}/*# sourceMappingURL=SinglePost.css.map */
