@@ -1,6 +1,9 @@
+
 #BlogUpload {
     padding-top: 87px;
-
+    width: 100%;
+    min-height: 100vh;
+    background: #F0F0F0;
     * {
         font-family: 'Work Sans', sans-serif;
     }
@@ -8,7 +11,10 @@
     .container_wrapper {
         max-width: 1205px;
         margin: 0 auto;
-
+        background: #fff;
+        padding: 20px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.302);
+        border-radius: 5px;
         @media (max-width: 1205px) {
             padding-inline: 12px;
         }
@@ -43,6 +49,14 @@
                     width: 100%;
                     display: block;
                     padding: 8px;
+                    font-size: 16px;
+                    border: 2px solid rgba(85, 85, 85, 0.3);
+                    &:focus{
+                        border: 2px solid rgba(85, 85, 85, 0.3);
+                    }
+                    &:focus-visible{
+                        outline: none;
+                    }
                 }
 
                 textarea {
@@ -63,6 +77,7 @@
                 border: none;
                 outline: none;
                 cursor: pointer;
+                text-transform: uppercase;
             }
         }
     }
